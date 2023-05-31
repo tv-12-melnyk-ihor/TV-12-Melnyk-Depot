@@ -1,0 +1,2713 @@
+:root{
+  --bg: #3B1A82;
+  --white-bg: #D9D9D9;
+  --loc-button: #BDAF2F;
+  --letter-d: #E81B1B;
+  --letter-e: #36C213;
+  --letter-p: #13C2C2;
+  --letter-o: #9413C2;
+  --letter-t: #D8DC1C;
+  --blue-text: #105798;
+  --blue-onwhite: #277FD0;
+  --booked-place: #CD271C;
+  --map-yellow: #D3912E;
+  --map-red: #D54D22;
+  --map-blue: #2D52D2;
+  --map-pink: #DC21C9;
+  --map-green: #2DC23C;
+  --map-cyan: #1EEEEE;
+  --map-escal: #5C5C5C;
+  --map-hall: #ADADAD;
+}
+
+.header{
+  background-color: black;
+  height: 120px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.header h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  margin: 0;
+}
+
+.header h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+}
+
+.header h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+  position: absolute;
+  right: 183px;
+}
+
+.phone-icon{
+  position: absolute;
+  right: 413px;
+}
+
+.header-title-depo{
+  position: absolute;
+  top: 35px;
+  left: 183px;
+  font-size: 0;
+}
+
+.header-letter-block{
+  height: 50px;
+  width: 50px;
+  border: 3px solid white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-right: 14px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.header-letter-t-block{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 45px;
+  left: 439px;
+  border: 3px solid white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-right: 14px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.header-t-circle{
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 35px;
+  left: 429px;
+  border: 3px solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+
+
+.background{
+  position: relative;
+  background-color: var(--bg);
+  height: 3020px;
+  width: 100%;
+}
+
+.arrow-button{
+}
+
+.arrow-button-square{
+  position: absolute;
+  top: 179px;
+  left: 183px;
+  height: 128px;
+  width: 128px;
+  border: 5px solid white;
+  border-radius: 30px;
+  box-sizing: border-box;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: white;
+}
+
+.arrow-mainline{
+  width: 75px;
+  height: 7px;
+  background-color: white;
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 240px;
+  left: 210px;
+}
+
+.arrow-topline{
+  width: 30px;
+  height: 7px;
+  background-color: white;
+  border: none;
+  margin: 0;
+  padding: 0;
+  transform: rotate(315deg);
+  transform-origin: top left;
+  position: absolute;
+  top: 240px;
+  left: 210px;
+}
+
+.arrow-bottomline{
+  width: 38px;
+  height: 7px;
+  background-color: white;
+  border: none;
+  margin: 0;
+  padding: 0;
+  transform: rotate(45deg);
+  transform-origin: top left;
+  position: absolute;
+  top: 240px;
+  left: 210px;
+}
+
+.home-button-square{
+  position: absolute;
+  top: 179px;
+  left: 383px;
+  height: 128px;
+  width: 128px;
+  border: 5px solid white;
+  border-radius: 30px;
+  box-sizing: border-box;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: white;
+}
+
+.home-icon{
+}
+
+.title-square{
+  position: absolute;
+  top: 179px;
+  left: 583px;
+  height: 128px;
+  width: 770px;
+  border: 5px solid white;
+  border-radius: 30px;
+  box-sizing: border-box;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.title-square h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0;
+}
+
+
+
+.menu{
+}
+
+.pizza-menu-bg{
+  position: absolute;
+  top: 384px;
+  left: 183px;
+  height: 1100px;
+  width: 1170px;
+  border-radius: 50px;
+  background-color: var(--white-bg);
+}
+
+.salad-menu-bg{
+  position: absolute;
+  top: 1561px;
+  left: 183px;
+  height: 710px;
+  width: 1170px;
+  border-radius: 50px;
+  background-color: var(--white-bg);
+}
+
+.drink-menu-bg{
+  position: absolute;
+  top: 2348px;
+  left: 183px;
+  height: 710px;
+  width: 1170px;
+  border-radius: 50px;
+  background-color: var(--white-bg);
+}
+
+.menu h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  margin: 0;
+  position: relative;
+  top: 35px;
+  text-align: center;
+}
+
+.menu h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 88px;
+}
+
+.menu h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 103px;
+}
+
+.menu-options{
+  position: absolute;
+  top: 152px;
+  left: 70px;
+  text-orientation: upright;
+  white-space: nowrap;
+}
+
+.descriptions{
+  position: absolute;
+  top: 195px;
+  left: 70px;
+  text-orientation: upright;
+  white-space: nowrap;
+}
+
+.descriptions-rowtwo{
+  position: absolute;
+  top: 225px;
+  left: 70px;
+  text-orientation: upright;
+  white-space: nowrap;
+}
+
+.prices{
+  position: absolute;
+  top: 152px;
+  right: 70px;
+  text-orientation: upright;
+  white-space: nowrap;
+}
+
+.big-line{
+  width: 1030px;
+  height: 5px;
+  background-color: black;
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 131px;
+  left: 70px;
+}
+
+.small-lines{
+  position: absolute;
+  top: 259px;
+  left: 70px;
+}
+
+.small-line{
+  width: 1030px;
+  height: 2px;
+  background-color: black;
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 130px;
+}
+
+
+
+
+
+.footer{
+  position: absolute;
+  top: 3140px;
+  background-color: black;
+  height: 300px;
+  width: 100%;
+  color: white;
+  display: flex;
+  margin: auto;
+}
+
+.footer-title-depo{
+  position: relative;
+  top: 50px;
+  left: 178px;
+  font-size: 0;
+}
+
+.footer-letter-t-block{
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 60px;
+  left: 174px;
+  border: 3px solid white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-right: 14px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.footer-t-circle{
+  height: 10px;
+  width: 10px;
+  position: relative;
+  top: 50px;
+  left: 174px;
+  border: 3px solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.footer h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  margin: 0;
+}
+
+.footer h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+}
+
+.footermenu{
+  position: absolute;
+  top: 63px;
+  left: 553px;
+  font-size: 0;
+}
+
+.footermenuoption{
+  box-sizing: border-box;
+  margin-right: 52px;
+  display: inline-block;
+}
+
+.footer h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+
+.contactus-text{
+  position: absolute;
+  top: 130px;
+  left: 183px;
+}
+
+.footer h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0;
+}
+
+.phonenumber-text{
+  position: absolute;
+  top: 135px;
+  left: 553px;
+}
+
+.email-text{
+  position: absolute;
+  top: 135px;
+  left: 796px;
+}
+
+.footer h5{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+
+.address-text{
+  position: absolute;
+  top: 210px;
+  left: 553px;
+}
+
+.footer h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+
+
+
+
+
+@media (max-width: 1366px){
+    .header{
+      background-color: black;
+      height: 106.719px;
+      width: 100%;
+      color: white;
+      display: flex;
+      align-items: center;
+      margin: auto;
+    }
+
+    .header h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 28.458px;
+      margin: 0;
+    }
+
+    .header h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 21.344px;
+      margin: 0;
+    }
+
+    .header h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 21.344px;
+      margin: 0;
+      position: absolute;
+      right: 162.746px;
+    }
+
+    .phone-icon{
+      position: absolute;
+      right: 367.29px;
+    }
+
+    .header-title-depo{
+      position: absolute;
+      top: 31.126px;
+      left: 166.746px;
+      font-size: 0;
+    }
+
+    .header-letter-block{
+      height: 44.466px;
+      width: 44.466px;
+      border: 2.668px solid white;
+      border-radius: 13.34px;
+      box-sizing: border-box;
+      margin-right: 12.451px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .header-letter-t-block{
+      height: 35.573px;
+      width: 35.573px;
+      position: absolute;
+      top: 40.02px;
+      left: 394.413px;
+      border: 2.668px solid white;
+      border-radius: 13.34px;
+      box-sizing: border-box;
+      margin-right: 12.451px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .header-t-circle{
+      height: 8.893px;
+      width: 8.893px;
+      position: absolute;
+      top: 31.126px;
+      left: 385.52px;
+      border: 2.668px solid white;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+
+
+
+    .background{
+      position: relative;
+      background-color: var(--bg);
+      height: 2685.755px;
+      width: 100%;
+    }
+
+    .arrow-button{
+    }
+
+    .arrow-button-square{
+      position: absolute;
+      top: 159.189px;
+      left: 162.746px;
+      height: 113.833px;
+      width: 113.833px;
+      border: 4.447px solid white;
+      border-radius: 26.68px;
+      box-sizing: border-box;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      color: white;
+    }
+
+    .arrow-mainline{
+      width: 66.699px;
+      height: 6.225px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 213.438px;
+      left: 186.758px;
+    }
+
+    .arrow-topline{
+      width: 26.68px;
+      height: 6.225px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      transform: rotate(315deg);
+      transform-origin: top left;
+      position: absolute;
+      top: 213.438px;
+      left: 186.758px;
+    }
+
+    .arrow-bottomline{
+      width: 33.794px;
+      height: 6.225px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      transform: rotate(45deg);
+      transform-origin: top left;
+      position: absolute;
+      top: 213.438px;
+      left: 186.758px;
+    }
+
+    .home-button-square{
+      position: absolute;
+      top: 159.189px;
+      left: 340.611px;
+      height: 113.833px;
+      width: 113.833px;
+      border: 4.447px solid white;
+      border-radius: 26.68px;
+      box-sizing: border-box;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      color: white;
+    }
+
+    .home-icon{
+      width: 70%;
+      height: auto;
+    }
+
+    .title-square{
+      position: absolute;
+      top: 159.189px;
+      left: 518.475px;
+      height: 113.833px;
+      width: 684.779px;
+      border: 4.447px solid white;
+      border-radius: 26.68px;
+      box-sizing: border-box;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .title-square h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 42.688px;
+      margin: 0;
+    }
+
+
+
+    .menu{
+    }
+
+    .pizza-menu-bg{
+      position: absolute;
+      top: 341.5px;
+      left: 162.746px;
+      height: 978.255px;
+      width: 1040.508px;
+      border-radius: 44.466px;
+      background-color: var(--white-bg);
+    }
+
+    .salad-menu-bg{
+      position: absolute;
+      top: 1388.233px;
+      left: 162.746px;
+      height: 631.419px;
+      width: 1040.508px;
+      border-radius: 44.466px;
+      background-color: var(--white-bg);
+    }
+
+    .drink-menu-bg{
+      position: absolute;
+      top: 2088.13px;
+      left: 162.746px;
+      height: 631.419px;
+      width: 1040.508px;
+      border-radius: 44.466px;
+      background-color: var(--white-bg);
+    }
+
+    .menu h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 56.917px;
+      margin: 0;
+      position: relative;
+      top: 31.126px;
+      text-align: center;
+    }
+
+    .menu h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 32.016px;
+      margin: 0;
+      margin-bottom: 78.26px;
+    }
+
+    .menu h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 21.344px;
+      margin: 0;
+      margin-bottom: 91.6px;
+    }
+
+    .menu-options{
+      position: absolute;
+      top: 135.177px;
+      left: 62.253px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .descriptions{
+      position: absolute;
+      top: 173.418px;
+      left: 62.253px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .descriptions-rowtwo{
+      position: absolute;
+      top: 200.098px;
+      left: 62.253px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .prices{
+      position: absolute;
+      top: 135.177px;
+      right: 62.253px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .big-line{
+      width: 916.003px;
+      height: 4.447px;
+      background-color: black;
+      border: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 116.501px;
+      left: 62.253px;
+    }
+
+    .small-lines{
+      position: absolute;
+      top: 230.335px;
+      left: 62.253px;
+    }
+
+    .small-line{
+      width: 916.003px;
+      height: 1.779px;
+      background-color: black;
+      border: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 115.612px;
+    }
+
+
+
+
+
+    .footer{
+      position: absolute;
+      top: 2792.474px;
+      background-color: black;
+      height: 266.797px;
+      width: 100%;
+      color: white;
+      display: flex;
+      margin: auto;
+    }
+
+    .footer-title-depo{
+      position: relative;
+      top: 44.466px;
+      left: 158.299px;
+      font-size: 0;
+    }
+
+    .footer-letter-t-block{
+      height: 35.573px;
+      width: 35.573px;
+      position: relative;
+      top: 53.359px;
+      left: 154.742px;
+      border: 2.668px solid white;
+      border-radius: 13.34px;
+      box-sizing: border-box;
+      margin-right: 12.451px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .footer-t-circle{
+      height: 8.893px;
+      width: 8.893px;
+      position: relative;
+      top: 44.466px;
+      left: 154.742px;
+      border: 2.668px solid white;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+
+    .footer h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 28.458px;
+      margin: 0;
+    }
+
+    .footer h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 21.344px;
+      margin: 0;
+    }
+
+    .footermenu{
+      position: absolute;
+      top: 56.027px;
+      left: 491.796px;
+      font-size: 0;
+    }
+
+    .footermenuoption{
+      box-sizing: border-box;
+      margin-right: 46.245px;
+      display: inline-block;
+    }
+
+    .footer h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 17.786px;
+      margin: 0;
+    }
+
+    .contactus-text{
+      position: absolute;
+      top: 115.612px;
+      left: 162.746px;
+    }
+
+    .footer h4{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 28.458px;
+      margin: 0;
+    }
+
+    .phonenumber-text{
+      position: absolute;
+      top: 120.059px;
+      left: 491.796px;
+    }
+
+    .email-text{
+      position: absolute;
+      top: 120.059px;
+      left: 707.901px;
+    }
+
+    .footer h5{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 21.344px;
+      margin: 0;
+    }
+
+    .address-text{
+      position: absolute;
+      top: 186.758px;
+      left: 491.796px;
+    }
+
+    .footer h6{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 14.229px;
+      margin: 0;
+    }
+}
+
+
+
+@media (max-width: 960px){
+    .header{
+      background-color: black;
+      height: 75px;
+      width: 100%;
+      color: white;
+      display: flex;
+      align-items: center;
+      margin: auto;
+    }
+
+    .header h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .header h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      margin: 0;
+    }
+
+    .header h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      margin: 0;
+      position: absolute;
+      right: 114.375px;
+    }
+
+    .phone-icon{
+      position: absolute;
+      right: 258.125px;
+      width: 5%;
+      height: auto;
+    }
+
+    .header-title-depo{
+      position: absolute;
+      top: 23.875px;
+      left: 124.375px;
+      font-size: 0;
+    }
+
+    .header-letter-block{
+      height: 31.25px;
+      width: 31.25px;
+      border: 1.875px solid white;
+      border-radius: 9.375px;
+      box-sizing: border-box;
+      margin-right: 8.75px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .header-letter-t-block{
+      height: 25px;
+      width: 25px;
+      position: absolute;
+      top: 30.125px;
+      left: 284.375px;
+      border: 1.875px solid white;
+      border-radius: 9.375px;
+      box-sizing: border-box;
+      margin-right: 8.75px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .header-t-circle{
+      height: 6.25px;
+      width: 6.25px;
+      position: absolute;
+      top: 23.875px;
+      left: 278.125px;
+      border: 1.875px solid white;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+
+
+
+    .background{
+      position: relative;
+      background-color: var(--bg);
+      height: 1887.5px;
+      width: 100%;
+    }
+
+    .arrow-button{
+    }
+
+    .arrow-button-square{
+      position: absolute;
+      top: 111.875px;
+      left: 114.375px;
+      height: 80px;
+      width: 80px;
+      border: 3.125px solid white;
+      border-radius: 18.75px;
+      box-sizing: border-box;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      color: white;
+    }
+
+    .arrow-mainline{
+      width: 46.875px;
+      height: 4.375px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 150px;
+      left: 131.25px;
+    }
+
+    .arrow-topline{
+      width: 18.75px;
+      height: 4.375px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      transform: rotate(315deg);
+      transform-origin: top left;
+      position: absolute;
+      top: 150px;
+      left: 131.25px;
+    }
+
+    .arrow-bottomline{
+      width: 23.75px;
+      height: 4.375px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      transform: rotate(45deg);
+      transform-origin: top left;
+      position: absolute;
+      top: 150px;
+      left: 131.25px;
+    }
+
+    .home-button-square{
+      position: absolute;
+      top: 111.875px;
+      left: 239.375px;
+      height: 80px;
+      width: 80px;
+      border: 3.125px solid white;
+      border-radius: 18.75px;
+      box-sizing: border-box;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      color: white;
+    }
+
+    .home-icon{
+    }
+
+    .title-square{
+      position: absolute;
+      top: 111.875px;
+      left: 364.375px;
+      height: 80px;
+      width: 481.25px;
+      border: 3.125px solid white;
+      border-radius: 18.75px;
+      box-sizing: border-box;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .title-square h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      margin: 0;
+    }
+
+
+
+    .menu{
+    }
+
+    .pizza-menu-bg{
+      position: absolute;
+      top: 240px;
+      left: 114.375px;
+      height: 687.5px;
+      width: 731.25px;
+      border-radius: 31.25px;
+      background-color: var(--white-bg);
+    }
+
+    .salad-menu-bg{
+      position: absolute;
+      top: 975.625px;
+      left: 114.375px;
+      height: 443.75px;
+      width: 731.25px;
+      border-radius: 31.25px;
+      background-color: var(--white-bg);
+    }
+
+    .drink-menu-bg{
+      position: absolute;
+      top: 1467.5px;
+      left: 114.375px;
+      height: 443.75px;
+      width: 731.25px;
+      border-radius: 31.25px;
+      background-color: var(--white-bg);
+    }
+
+    .menu h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      margin: 0;
+      position: relative;
+      top: 21.875px;
+      text-align: center;
+    }
+
+    .menu h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 22.5px;
+      margin: 0;
+      margin-bottom: 55px;
+    }
+
+    .menu h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      margin: 0;
+      margin-bottom: 64.375px;
+    }
+
+    .menu-options{
+      position: absolute;
+      top: 95px;
+      left: 43.75px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .descriptions{
+      position: absolute;
+      top: 121.875px;
+      left: 43.75px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .descriptions-rowtwo{
+      position: absolute;
+      top: 140.625px;
+      left: 43.75px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .prices{
+      position: absolute;
+      top: 95px;
+      right: 43.75px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .big-line{
+      width: 643.75px;
+      height: 3.125px;
+      background-color: black;
+      border: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 81.875px;
+      left: 43.75px;
+    }
+
+    .small-lines{
+      position: absolute;
+      top: 161.875px;
+      left: 43.75px;
+    }
+
+    .small-line{
+      width: 643.75px;
+      height: 1.25px;
+      background-color: black;
+      border: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 81.25px;
+    }
+
+
+
+
+
+    .footer{
+      position: absolute;
+      top: 1962.5px;
+      background-color: black;
+      height: 187.5px;
+      width: 100%;
+      color: white;
+      display: flex;
+      margin: auto;
+    }
+
+    .footer-title-depo{
+      position: relative;
+      top: 31.25px;
+      left: 111.25px;
+      font-size: 0;
+    }
+
+    .footer-letter-t-block{
+      height: 25px;
+      width: 25px;
+      position: relative;
+      top: 37.5px;
+      left: 108.75px;
+      border: 1.875px solid white;
+      border-radius: 9.375px;
+      box-sizing: border-box;
+      margin-right: 8.75px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .footer-t-circle{
+      height: 6.25px;
+      width: 6.25px;
+      position: relative;
+      top: 31.25px;
+      left: 108.75px;
+      border: 1.875px solid white;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+
+    .footer h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .footer h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      margin: 0;
+    }
+
+    .footermenu{
+      position: absolute;
+      top: 39.375px;
+      left: 345.625px;
+      font-size: 0;
+    }
+
+    .footermenuoption{
+      box-sizing: border-box;
+      margin-right: 32.5px;
+      display: inline-block;
+    }
+
+    .footer h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 12.5px;
+      margin: 0;
+    }
+
+    .contactus-text{
+      position: absolute;
+      top: 81.25px;
+      left: 114.375px;
+    }
+
+    .footer h4{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .phonenumber-text{
+      position: absolute;
+      top: 84.375px;
+      left: 345.625px;
+    }
+
+    .email-text{
+      position: absolute;
+      top: 84.375px;
+      left: 497.5px;
+    }
+
+    .footer h5{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      margin: 0;
+    }
+
+    .address-text{
+      position: absolute;
+      top: 131.25px;
+      left: 345.625px;
+    }
+
+    .footer h6{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 10px;
+      margin: 0;
+    }
+}
+
+
+
+@media (max-width: 512px){
+    .header{
+      background-color: black;
+      height: 40px;
+      width: 100%;
+      color: white;
+      display: flex;
+      align-items: center;
+      margin: auto;
+    }
+
+    .header h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 10.667px;
+      margin: 0;
+    }
+
+    .header h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 8px;
+      margin: 0;
+    }
+
+    .header h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 8px;
+      margin: 0;
+      position: absolute;
+      right: 61px;
+    }
+
+    .phone-icon{
+      position: absolute;
+      right: 137.667px;
+    }
+
+    .header-title-depo{
+      position: absolute;
+      top: 20px;
+      left: 70px;
+      font-size: 0;
+    }
+
+    .header-letter-block{
+      height: 16.667px;
+      width: 16.667px;
+      border: 1px solid white;
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin-right: 4.667px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .header-letter-t-block{
+      height: 13.333px;
+      width: 13.333px;
+      position: absolute;
+      top: 23.333px;
+      left: 154.667px;
+      border: 1px solid white;
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin-right: 4.667px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .header-t-circle{
+      height: 3.333px;
+      width: 3.333px;
+      position: absolute;
+      top: 20px;
+      left: 151.667px;
+      border: 1px solid white;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+
+
+
+    .background{
+      position: relative;
+      background-color: var(--bg);
+      height: 1006.667px;
+      width: 100%;
+    }
+
+    .arrow-button{
+    }
+
+    .arrow-button-square{
+      position: absolute;
+      top: 59.667px;
+      left: 61px;
+      height: 42.667px;
+      width: 42.667px;
+      border: 1.667px solid white;
+      border-radius: 10px;
+      box-sizing: border-box;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      color: white;
+    }
+
+    .arrow-mainline{
+      width: 25px;
+      height: 2.333px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 80px;
+      left: 70px;
+    }
+
+    .arrow-topline{
+      width: 10px;
+      height: 2.333px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      transform: rotate(315deg);
+      transform-origin: top left;
+      position: absolute;
+      top: 80px;
+      left: 70px;
+    }
+
+    .arrow-bottomline{
+      width: 12.667px;
+      height: 2.333px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      transform: rotate(45deg);
+      transform-origin: top left;
+      position: absolute;
+      top: 80px;
+      left: 70px;
+    }
+
+    .home-button-square{
+      position: absolute;
+      top: 59.667px;
+      left: 127.667px;
+      height: 42.667px;
+      width: 42.667px;
+      border: 1.667px solid white;
+      border-radius: 10px;
+      box-sizing: border-box;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      color: white;
+    }
+
+    .home-icon{
+    }
+
+    .title-square{
+      position: absolute;
+      top: 59.667px;
+      left: 194.333px;
+      height: 42.667px;
+      width: 256.667px;
+      border: 1.667px solid white;
+      border-radius: 10px;
+      box-sizing: border-box;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .title-square h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      margin: 0;
+    }
+
+
+
+    .menu{
+    }
+
+    .pizza-menu-bg{
+      position: absolute;
+      top: 128px;
+      left: 61px;
+      height: 366.667px;
+      width: 390px;
+      border-radius: 16.667px;
+      background-color: var(--white-bg);
+    }
+
+    .salad-menu-bg{
+      position: absolute;
+      top: 520.333px;
+      left: 61px;
+      height: 236.667px;
+      width: 390px;
+      border-radius: 16.667px;
+      background-color: var(--white-bg);
+    }
+
+    .drink-menu-bg{
+      position: absolute;
+      top: 782.667px;
+      left: 61px;
+      height: 236.667px;
+      width: 390px;
+      border-radius: 16.667px;
+      background-color: var(--white-bg);
+    }
+
+    .menu h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 21.333px;
+      margin: 0;
+      position: relative;
+      top: 11.667px;
+      text-align: center;
+    }
+
+    .menu h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      margin: 0;
+      margin-bottom: 29.333px;
+    }
+
+    .menu h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 8px;
+      margin: 0;
+      margin-bottom: 34.333px;
+    }
+
+    .menu-options{
+      position: absolute;
+      top: 50.667px;
+      left: 23.333px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .descriptions{
+      position: absolute;
+      top: 65px;
+      left: 23.333px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .descriptions-rowtwo{
+      position: absolute;
+      top: 75px;
+      left: 23.333px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .prices{
+      position: absolute;
+      top: 50.667px;
+      right: 23.333px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .big-line{
+      width: 343.333px;
+      height: 1.667px;
+      background-color: black;
+      border: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 43.667px;
+      left: 23.333px;
+    }
+
+    .small-lines{
+      position: absolute;
+      top: 86.333px;
+      left: 23.333px;
+    }
+
+    .small-line{
+      width: 343.333px;
+      height: 0.667px;
+      background-color: black;
+      border: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 43.333px;
+    }
+
+
+
+
+
+    .footer{
+      position: absolute;
+      top: 1046.667px;
+      background-color: black;
+      height: 100px;
+      width: 100%;
+      color: white;
+      display: flex;
+      margin: auto;
+    }
+
+    .footer-title-depo{
+      position: relative;
+      top: 16.667px;
+      left: 59.333px;
+      font-size: 0;
+    }
+
+    .footer-letter-t-block{
+      height: 13.333px;
+      width: 13.333px;
+      position: relative;
+      top: 20px;
+      left: 58px;
+      border: 1px solid white;
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin-right: 4.667px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .footer-t-circle{
+      height: 3.333px;
+      width: 3.333px;
+      position: relative;
+      top: 16.667px;
+      left: 58px;
+      border: 1px solid white;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+
+    .footer h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 10.667px;
+      margin: 0;
+    }
+
+    .footer h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 8px;
+      margin: 0;
+    }
+
+    .footermenu{
+      position: absolute;
+      top: 21px;
+      left: 184.333px;
+      font-size: 0;
+    }
+
+    .footermenuoption{
+      box-sizing: border-box;
+      margin-right: 17.333px;
+      display: inline-block;
+    }
+
+    .footer h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 6.667px;
+      margin: 0;
+    }
+
+    .contactus-text{
+      position: absolute;
+      top: 43.333px;
+      left: 61px;
+    }
+
+    .footer h4{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 10.667px;
+      margin: 0;
+    }
+
+    .phonenumber-text{
+      position: absolute;
+      top: 45px;
+      left: 184.333px;
+    }
+
+    .email-text{
+      position: absolute;
+      top: 45px;
+      left: 265.333px;
+    }
+
+    .footer h5{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 8px;
+      margin: 0;
+    }
+
+    .address-text{
+      position: absolute;
+      top: 70px;
+      left: 184.333px;
+    }
+
+    .footer h6{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 5.333px;
+      margin: 0;
+    }
+}
+
+
+
+@media (max-width: 414px){
+    .header{
+      background-color: black;
+      height: 32.432px;
+      width: 100%;
+      color: white;
+      display: flex;
+      align-items: center;
+      margin: auto;
+    }
+
+    .header h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 8.649px;
+      margin: 0;
+    }
+
+    .header h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 6.486px;
+      margin: 0;
+    }
+
+    .header h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 6.486px;
+      margin: 0;
+      position: absolute;
+      right: 49.459px;
+    }
+
+    .phone-icon{
+      position: absolute;
+      right: 111.622px;
+    }
+
+    .header-title-depo{
+      position: absolute;
+      top: 15.459px;
+      left: 59.459px;
+      font-size: 0;
+    }
+
+    .header-letter-block{
+      height: 13.514px;
+      width: 13.514px;
+      border: 0.811px solid white;
+      border-radius: 4.054px;
+      box-sizing: border-box;
+      margin-right: 3.784px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .header-letter-t-block{
+      height: 10.811px;
+      width: 10.811px;
+      position: absolute;
+      top: 18.162px;
+      left: 128.649px;
+      border: 0.811px solid white;
+      border-radius: 4.054px;
+      box-sizing: border-box;
+      margin-right: 3.784px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .header-t-circle{
+      height: 2.703px;
+      width: 2.703px;
+      position: absolute;
+      top: 15.459px;
+      left: 125.946px;
+      border: 0.811px solid white;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+
+
+
+    .background{
+      position: relative;
+      background-color: var(--bg);
+      height: 816.216px;
+      width: 100%;
+    }
+
+    .arrow-button{
+    }
+
+    .arrow-button-square{
+      position: absolute;
+      top: 48.378px;
+      left: 49.459px;
+      height: 34.595px;
+      width: 34.595px;
+      border: 1.351px solid white;
+      border-radius: 8.108px;
+      box-sizing: border-box;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      color: white;
+    }
+
+    .arrow-mainline{
+      width: 20.27px;
+      height: 1.892px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 64.865px;
+      left: 56.757px;
+    }
+
+    .arrow-topline{
+      width: 8.108px;
+      height: 1.892px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      transform: rotate(315deg);
+      transform-origin: top left;
+      position: absolute;
+      top: 64.865px;
+      left: 56.757px;
+    }
+
+    .arrow-bottomline{
+      width: 10.27px;
+      height: 1.892px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      transform: rotate(45deg);
+      transform-origin: top left;
+      position: absolute;
+      top: 64.865px;
+      left: 56.757px;
+    }
+
+    .home-button-square{
+      position: absolute;
+      top: 48.378px;
+      left: 103.514px;
+      height: 34.595px;
+      width: 34.595px;
+      border: 1.351px solid white;
+      border-radius: 8.108px;
+      box-sizing: border-box;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      color: white;
+    }
+
+    .home-icon{
+    }
+
+    .title-square{
+      position: absolute;
+      top: 48.378px;
+      left: 157.568px;
+      height: 34.595px;
+      width: 208.108px;
+      border: 1.351px solid white;
+      border-radius: 8.108px;
+      box-sizing: border-box;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .title-square h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 12.973px;
+      margin: 0;
+    }
+
+
+
+    .menu{
+    }
+
+    .pizza-menu-bg{
+      position: absolute;
+      top: 103.784px;
+      left: 49.459px;
+      height: 297.297px;
+      width: 316.216px;
+      border-radius: 13.514px;
+      background-color: var(--white-bg);
+    }
+
+    .salad-menu-bg{
+      position: absolute;
+      top: 421.892px;
+      left: 49.459px;
+      height: 191.892px;
+      width: 316.216px;
+      border-radius: 13.514px;
+      background-color: var(--white-bg);
+    }
+
+    .drink-menu-bg{
+      position: absolute;
+      top: 634.595px;
+      left: 49.459px;
+      height: 191.892px;
+      width: 316.216px;
+      border-radius: 13.514px;
+      background-color: var(--white-bg);
+    }
+
+    .menu h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 17.297px;
+      margin: 0;
+      position: relative;
+      top: 9.459px;
+      text-align: center;
+    }
+
+    .menu h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 9.73px;
+      margin: 0;
+      margin-bottom: 23.784px;
+    }
+
+    .menu h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 6.486px;
+      margin: 0;
+      margin-bottom: 27.838px;
+    }
+
+    .menu-options{
+      position: absolute;
+      top: 41.081px;
+      left: 18.919px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .descriptions{
+      position: absolute;
+      top: 52.703px;
+      left: 18.919px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .descriptions-rowtwo{
+      position: absolute;
+      top: 60.811px;
+      left: 18.919px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .prices{
+      position: absolute;
+      top: 41.081px;
+      right: 18.919px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .big-line{
+      width: 278.378px;
+      height: 1.351px;
+      background-color: black;
+      border: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 35.405px;
+      left: 18.919px;
+    }
+
+    .small-lines{
+      position: absolute;
+      top: 70px;
+      left: 18.919px;
+    }
+
+    .small-line{
+      width: 278.378px;
+      height: 0.541px;
+      background-color: black;
+      border: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 35.135px;
+    }
+
+
+
+
+
+    .footer{
+      position: absolute;
+      top: 848.649px;
+      background-color: black;
+      height: 81.081px;
+      width: 100%;
+      color: white;
+      display: flex;
+      margin: auto;
+    }
+
+    .footer-title-depo{
+      position: relative;
+      top: 13.514px;
+      left: 48.108px;
+      font-size: 0;
+    }
+
+    .footer-letter-t-block{
+      height: 10.811px;
+      width: 10.811px;
+      position: relative;
+      top: 16.216px;
+      left: 47.027px;
+      border: 0.811px solid white;
+      border-radius: 4.054px;
+      box-sizing: border-box;
+      margin-right: 3.784px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .footer-t-circle{
+      height: 2.703px;
+      width: 2.703px;
+      position: relative;
+      top: 13.514px;
+      left: 47.027px;
+      border: 0.811px solid white;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+
+    .footer h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 8.649px;
+      margin: 0;
+    }
+
+    .footer h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 6.486px;
+      margin: 0;
+    }
+
+    .footermenu{
+      position: absolute;
+      top: 17.027px;
+      left: 149.459px;
+      font-size: 0;
+    }
+
+    .footermenuoption{
+      box-sizing: border-box;
+      margin-right: 14.054px;
+      display: inline-block;
+    }
+
+    .footer h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 5.405px;
+      margin: 0;
+    }
+
+    .contactus-text{
+      position: absolute;
+      top: 35.135px;
+      left: 49.459px;
+    }
+
+    .footer h4{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 8.649px;
+      margin: 0;
+    }
+
+    .phonenumber-text{
+      position: absolute;
+      top: 36.486px;
+      left: 149.459px;
+    }
+
+    .email-text{
+      position: absolute;
+      top: 36.486px;
+      left: 215.135px;
+    }
+
+    .footer h5{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 6.486px;
+      margin: 0;
+    }
+
+    .address-text{
+      position: absolute;
+      top: 56.757px;
+      left: 149.459px;
+    }
+
+    .footer h6{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 4.324px;
+      margin: 0;
+    }
+}
+
+
+
+@media (max-width: 320px){
+    .header{
+      background-color: black;
+      height: 25px;
+      width: 100%;
+      color: white;
+      display: flex;
+      align-items: center;
+      margin: auto;
+    }
+
+    .header h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 6.667px;
+      margin: 0;
+    }
+
+    .header h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 5px;
+      margin: 0;
+    }
+
+    .header h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 5px;
+      margin: 0;
+      position: absolute;
+      right: 38.125px;
+    }
+
+    .phone-icon{
+      position: absolute;
+      right: 86.042px;
+      width: 5%;
+      height: auto;
+    }
+
+    .header-title-depo{
+      position: absolute;
+      top: 14.584px;
+      left: 46.125px;
+      font-size: 0;
+    }
+
+    .header-letter-block{
+      height: 10.417px;
+      width: 10.417px;
+      border: 0.625px solid white;
+      border-radius: 3.125px;
+      box-sizing: border-box;
+      margin-right: 2.917px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .header-letter-t-block{
+      height: 8.333px;
+      width: 8.333px;
+      position: absolute;
+      top: 16.667px;
+      left: 99.458px;
+      border: 0.625px solid white;
+      border-radius: 3.125px;
+      box-sizing: border-box;
+      margin-right: 2.917px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .header-t-circle{
+      height: 2.083px;
+      width: 2.083px;
+      position: absolute;
+      top: 14.584px;
+      left: 97.375px;
+      border: 0.625px solid white;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+
+
+
+    .background{
+      position: relative;
+      background-color: var(--bg);
+      height: 629.167px;
+      width: 100%;
+    }
+
+    .arrow-button{
+    }
+
+    .arrow-button-square{
+      position: absolute;
+      top: 37.292px;
+      left: 38.125px;
+      height: 26.667px;
+      width: 26.667px;
+      border: 1.042px solid white;
+      border-radius: 6.25px;
+      box-sizing: border-box;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      color: white;
+    }
+
+    .arrow-mainline{
+      width: 15.625px;
+      height: 1.458px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 50px;
+      left: 43.75px;
+    }
+
+    .arrow-topline{
+      width: 6.25px;
+      height: 1.458px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      transform: rotate(315deg);
+      transform-origin: top left;
+      position: absolute;
+      top: 50px;
+      left: 43.75px;
+    }
+
+    .arrow-bottomline{
+      width: 7.917px;
+      height: 1.458px;
+      background-color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+      transform: rotate(45deg);
+      transform-origin: top left;
+      position: absolute;
+      top: 50px;
+      left: 43.75px;
+    }
+
+    .home-button-square{
+      position: absolute;
+      top: 37.292px;
+      left: 79.792px;
+      height: 26.667px;
+      width: 26.667px;
+      border: 1.042px solid white;
+      border-radius: 6.25px;
+      box-sizing: border-box;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      color: white;
+    }
+
+    .home-icon{
+    }
+
+    .title-square{
+      position: absolute;
+      top: 37.292px;
+      left: 121.458px;
+      height: 26.667px;
+      width: 160.417px;
+      border: 1.042px solid white;
+      border-radius: 6.25px;
+      box-sizing: border-box;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .title-square h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 10px;
+      margin: 0;
+    }
+
+
+
+    .menu{
+    }
+
+    .pizza-menu-bg{
+      position: absolute;
+      top: 80px;
+      left: 38.125px;
+      height: 229.167px;
+      width: 243.75px;
+      border-radius: 10.417px;
+      background-color: var(--white-bg);
+    }
+
+    .salad-menu-bg{
+      position: absolute;
+      top: 325.208px;
+      left: 38.125px;
+      height: 147.917px;
+      width: 243.75px;
+      border-radius: 10.417px;
+      background-color: var(--white-bg);
+    }
+
+    .drink-menu-bg{
+      position: absolute;
+      top: 489.167px;
+      left: 38.125px;
+      height: 147.917px;
+      width: 243.75px;
+      border-radius: 10.417px;
+      background-color: var(--white-bg);
+    }
+
+    .menu h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 13.333px;
+      margin: 0;
+      position: relative;
+      top: 7.292px;
+      text-align: center;
+    }
+
+    .menu h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 7.5px;
+      margin: 0;
+      margin-bottom: 18.333px;
+    }
+
+    .menu h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 5px;
+      margin: 0;
+      margin-bottom: 21.458px;
+    }
+
+    .menu-options{
+      position: absolute;
+      top: 31.667px;
+      left: 14.583px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .descriptions{
+      position: absolute;
+      top: 40.625px;
+      left: 14.583px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .descriptions-rowtwo{
+      position: absolute;
+      top: 46.875px;
+      left: 14.583px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .prices{
+      position: absolute;
+      top: 31.667px;
+      right: 14.583px;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+
+    .big-line{
+      width: 214.583px;
+      height: 1.042px;
+      background-color: black;
+      border: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 27.292px;
+      left: 14.583px;
+    }
+
+    .small-lines{
+      position: absolute;
+      top: 53.958px;
+      left: 14.583px;
+    }
+
+    .small-line{
+      width: 214.583px;
+      height: 0.417px;
+      background-color: black;
+      border: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 27.083px;
+    }
+
+
+
+
+
+    .footer{
+      position: absolute;
+      top: 654.167px;
+      background-color: black;
+      height: 62.5px;
+      width: 100%;
+      color: white;
+      display: flex;
+      margin: auto;
+    }
+
+    .footer-title-depo{
+      position: relative;
+      top: 10.417px;
+      left: 37.083px;
+      font-size: 0;
+    }
+
+    .footer-letter-t-block{
+      height: 8.333px;
+      width: 8.333px;
+      position: relative;
+      top: 12.5px;
+      left: 36.25px;
+      border: 0.625px solid white;
+      border-radius: 3.125px;
+      box-sizing: border-box;
+      margin-right: 2.917px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+    }
+
+    .footer-t-circle{
+      height: 2.083px;
+      width: 2.083px;
+      position: relative;
+      top: 10.417px;
+      left: 36.25px;
+      border: 0.625px solid white;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+
+    .footer h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 6.667px;
+      margin: 0;
+    }
+
+    .footer h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 5px;
+      margin: 0;
+    }
+
+    .footermenu{
+      position: absolute;
+      top: 13.125px;
+      left: 115.208px;
+      font-size: 0;
+    }
+
+    .footermenuoption{
+      box-sizing: border-box;
+      margin-right: 10.833px;
+      display: inline-block;
+    }
+
+    .footer h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 4.167px;
+      margin: 0;
+    }
+
+    .contactus-text{
+      position: absolute;
+      top: 27.083px;
+      left: 38.125px;
+    }
+
+    .footer h4{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 6.667px;
+      margin: 0;
+    }
+
+    .phonenumber-text{
+      position: absolute;
+      top: 28.125px;
+      left: 115.208px;
+    }
+
+    .email-text{
+      position: absolute;
+      top: 28.125px;
+      left: 165.833px;
+    }
+
+    .footer h5{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 5px;
+      margin: 0;
+    }
+
+    .address-text{
+      position: absolute;
+      top: 43.75px;
+      left: 115.208px;
+    }
+
+    .footer h6{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 3.333px;
+      margin: 0;
+    }
+}
